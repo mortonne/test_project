@@ -1,0 +1,25 @@
+[project]
+name = "myproject"
+description = "MyProject: A sentence about what this project is designed to do."
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Firstname Lastname", email = "myemail@example.com"}
+]
+keywords = ["keyword1", "keyword2", "etc."]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent"
+]
+urls = {project = "https://github.com/prestonlab/myproject"}
+dependencies = [
+    "numpy",
+    "pandas"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
