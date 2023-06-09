@@ -17,9 +17,13 @@ classifiers = [
 urls = {project = "https://github.com/prestonlab/myproject"}
 dependencies = [
     "numpy",
-    "pandas"
+    "pandas",
+    "click"
 ]
 
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project.scripts]
+hello-world = "myproject.mymodule:hello_world"
