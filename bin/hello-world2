@@ -1,3 +1,5 @@
 #!/bin/bash
+#
+# Print hello world message to standard output.
 
 echo "Hello, world."
