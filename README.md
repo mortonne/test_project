@@ -38,3 +38,7 @@ To print "hello world" using a Bash script:
 ```bash
 hello-world2
 ```
+
+## Development
+
+Git commit messages to this project follow the [conventional commits](https://www.conventionalcommits.org) standard. 
