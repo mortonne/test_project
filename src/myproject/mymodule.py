@@ -8,6 +8,7 @@ def print_message(message="Hello, world"):
     print(message)
 
 
-@click.command(description="Print hello world message to standard output.")
+@click.command()
 def hello_world():
+    """Print hello world message to standard output."""
     print_message()
