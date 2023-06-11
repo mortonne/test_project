@@ -1,5 +1,7 @@
 # test_project
 
+This is an example Python project for demonstration purposes. See [code project management](https://github.com/prestonlab/wiki/wiki/Code-project-management) for details.
+
 ## Installation
 
 Create a Python virtual environment:
