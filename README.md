@@ -39,6 +39,14 @@ To print "hello world" using a Bash script:
 hello-world2
 ```
 
+To create a "hello world" figure using Jupyter Lab:
+
+```bash
+jupyter lab &
+```
+
+Then open and run `jupyter/hello_world.ipynb`.
+
 ## Development
 
 Git commit messages to this project follow the [conventional commits](https://www.conventionalcommits.org) standard. 
